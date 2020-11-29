@@ -1,6 +1,6 @@
 import vk_api
 import re
-import rus_preprocessing_udpipe
+from . import rus_preprocessing_udpipe
 from importlib import reload
 import pandas as pd
 import numpy as np
