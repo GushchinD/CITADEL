@@ -19,6 +19,8 @@ class Settings(BaseSettings):
     damia_scoring_api_key: str
     damia_scoring_url: HttpUrl = Field('https://damia.ru/api-scoring')
 
+    terrorists_search_url: str = Field('http://www.fedsfm.ru/TerroristSearch')
+
     class Config:
         env_file = '.env'
 

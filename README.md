@@ -39,7 +39,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
   - [X] Arbitrary
   - [ ] ФССП
   - [ ] Bankruptcies
-  - [ ] Terrorist list
+  - [X] Terrorist list
 - [ ] Data formatting
 - [ ] Searching by photo
 - [ ] MVP API (specify details)
