@@ -4,8 +4,8 @@ from typing import Optional
 
 
 class EntityStatus(str, Enum):
-    active = auto()
-    liquidated = auto()
+    active = 'active'
+    liquidated = 'liquidated'
 
 
 @dataclass

@@ -30,6 +30,7 @@ INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 ```
 
+PUT IN PROJECT ROOT: https://drive.google.com/file/d/1hegf1wnPnynByp5pm1EWS6E887mf__Wn/view?usp=sharing
 
 # Backlog
 
@@ -40,9 +41,9 @@ INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
   - [ ] ФССП
   - [ ] Bankruptcies
   - [X] Terrorist list
-- [ ] Data formatting
-- [ ] Searching by photo
-- [ ] MVP API (specify details)
-  - [ ] Profile list creation
-  - [ ] Photo uploading
-  - [ ] Data gathering
+- [X] Data formatting
+- [X] Searching by photo
+- [ ] MVP API (specify des tails)
+  - [X] Profile list creation
+  - [X] Photo uploading
+  - [X] Data gathering

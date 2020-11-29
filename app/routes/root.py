@@ -25,12 +25,14 @@ async def get_match(
         links: List[HttpUrl] = Body(...)
 ):
     if not image.content_type.startswith('image/'):
+        print('Bad image mime type', image.content_type)
         raise HTTPException(415, 'Bad image mime type')
     if not all(map(check_link, links)):
+        print('URLs must be vk profile links', links)
         raise HTTPException(406, 'URLs must be vk profile links')
     words, trust, first, last, itns, arbits = collect_data(await image.read(), links)
-    # words = words.to_dict()
-    # trust = float(trust)
+    words = words.to_dict()
+    trust = float(trust)
     # print(words)
     return {
         'words': words,
