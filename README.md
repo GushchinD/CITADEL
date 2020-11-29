@@ -36,10 +36,11 @@ INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
 - [ ] Data mining functions
   - [X] ИНН
   - [X] ИП, Юр
-  - [ ] Arbitrary
+  - [X] Arbitrary
   - [ ] ФССП
   - [ ] Bankruptcies
   - [ ] Terrorist list
+- [ ] Data formatting
 - [ ] Searching by photo
 - [ ] MVP API (specify details)
   - [ ] Profile list creation

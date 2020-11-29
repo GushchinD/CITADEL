@@ -1,10 +1,7 @@
-from app.tools.damia.fns import FNSClient
 from fastapi import FastAPI
-from .settings import get_settings
+from .routes import api_router
 
 
 app = FastAPI()
 
-@app.get('/data')
-def get_data():
-    return FNSClient().search('Варламов Илья')
+app.include_router(api_router)

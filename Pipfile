@@ -16,6 +16,7 @@ itsdangerous = "*"
 graphene = "*"
 python-dotenv = "*"
 api-client = "*"
+python-multipart = "*"
 
 [requires]
 python_version = "3.9"

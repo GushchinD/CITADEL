@@ -1,7 +1,9 @@
 from apiclient import APIClient
+
 from apiclient.authentication_methods import QueryParameterAuthentication
 from apiclient.response_handlers import JsonResponseHandler
 from apiclient.request_formatters import NoOpRequestFormatter
+
 
 class BaseDaMIAClient(APIClient):
     def __init__(self, api_key: str) -> None:

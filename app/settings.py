@@ -1,8 +1,7 @@
-from functools import lru_cache
-from sys import version
 from pydantic import BaseSettings
 from pydantic.fields import Field
 from pydantic.networks import HttpUrl
+from functools import lru_cache
 
 
 class Settings(BaseSettings):
@@ -22,6 +21,7 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = '.env'
+
 
 @lru_cache()
 def get_settings():
