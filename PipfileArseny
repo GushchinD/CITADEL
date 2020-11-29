@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+# плюс ещё dlib, его должна сама ставить face-recognition
+[packages]
+findclone-api = "*"
+pandas = "*"
+requests = "*"
+numpy = "*"
+face-recognition = "*"
+matplotlib = "*"
+seaborn = "*"
+jupyterlab = "*"
+vk-api = "*"
+"ufal.udpipe" = "*"
+wget = "*"
+simple-elmo = "*"
+tensorflow = "*"
+sklearn = "*"
+lightgbm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
